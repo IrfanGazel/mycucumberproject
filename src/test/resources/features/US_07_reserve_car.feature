@@ -1,6 +1,8 @@
 @reserve_car
 Feature: reserve_car
 
+
+
   Scenario Outline: reserve_car_as_customer
     Given user is on the login page
 #      lets first log in, then follow the steps
@@ -17,6 +19,7 @@ Feature: reserve_car
     And user enters drop off time "<drop_time>"
     Then user clicks on continue reservation
     Then verify complete reservation screen pop up
+    And user login dropdown
     And user enters card number "<card_number>"
     And user enters "<name>" on the card
     And user enters "<expire_date>" and "<CVC>"

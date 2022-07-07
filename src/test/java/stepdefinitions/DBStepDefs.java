@@ -53,6 +53,7 @@ public class DBStepDefs {
     @Then("verify {string} table {string} column contains {string} data")
     public void verify_table_column_contains_data(String table, String column, String data) {
 
+
 //        1. get the database column data in a list
 //        getColumnData(String query, String column)-> returns a List of Column data
 //        RETURNS login COLUMN DATA OF jhi_user TABLE
