@@ -17,12 +17,13 @@ Feature: day02_US12300_scenario_outline_1.feature
       |mercedes|
       |tesla   |
       |lexus   |
-      |bmw     |
+      |mazda     |
       |apple   |
       |orange  |
       |capitals|
       |vacation|
       |best places to live|
+      |worst places to live|
 
 
 #Scenario outline is used to run same scenario multiple times with different data
